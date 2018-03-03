@@ -25,5 +25,5 @@ if __name__ == "__main__":
     # 识别本地文件
     str = aipSpeech.asr(get_file_content('./shibie.wav'), 'wav',16000,{
         'lan': 'zh',
-    })
+    })	print(str)
     print(str['result'].encode('utf-8'))
