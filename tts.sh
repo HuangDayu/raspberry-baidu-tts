@@ -1,4 +1,4 @@
 #/bin/bash
 
-python hecheng.py
+python2 hecheng.py
 sudo mplayer getRpiIP.mp3
