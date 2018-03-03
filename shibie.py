@@ -38,6 +38,7 @@ if __name__ == "__main__":
         'lan': 'zh',
     })
     str2=str1['result']
+    print(str2)
     str3=str2[0]
     print(str3)
 #.encode('utf-8')
