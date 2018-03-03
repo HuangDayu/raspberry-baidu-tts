@@ -23,7 +23,7 @@ def get_file_content(filePath):
 
 if __name__ == "__main__":
     # 识别本地文件
-    str = aipSpeech.asr(get_file_content('./shibie.wav'), 'wav',16000,{
+    str1 = aipSpeech.asr(get_file_content('./shibie.wav'), 'wav',16000,{
         'lan': 'zh',
-    })
-    print(str['result'])#.encode('utf-8')
+    })	str2=str1['result']	str3=str2[0]
+    print(str3)#.encode('utf-8')#
