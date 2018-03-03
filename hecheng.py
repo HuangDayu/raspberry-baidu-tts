@@ -32,5 +32,5 @@ if __name__ == "__main__":
     })
     # 识别正确返回语音二进制 错误则返回dict 参照下面错误码
     if not isinstance(result, dict):
-        with open('getRpiIP.mp3', 'wb') as f:
+        with open('hecheng.mp3', 'wb') as f:
             f.write(result)

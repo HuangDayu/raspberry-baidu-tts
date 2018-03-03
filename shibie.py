@@ -4,7 +4,7 @@ from api import AipSpeech
 #App ID: 10351927
 #API Key: VWgKFTtRGdeviVbZ0AP80SfZ
 #Secret Key: 1945bd34ec52542c48a4864b76bda2ca
-#语音合成百度文档地址：http://yuyin.baidu.com/docs/tts/196
+#语音识别百度文档地址：http://yuyin.baidu.com/docs/asr/190
 # arecord -Dhw:1,0 -c 2 -r 16000 -f S16_LE test.wav
 APP_ID = '10351927'
 API_KEY = 'VWgKFTtRGdeviVbZ0AP80SfZ'
@@ -23,7 +23,7 @@ def get_file_content(filePath):
 
 if __name__ == "__main__":
     # 识别本地文件
-    str = aipSpeech.asr(get_file_content('./file.wav'), 'wav',160000,{
+    str = aipSpeech.asr(get_file_content('./shibie.wav'), 'wav',16000,{
         'lan': 'zh',
     })
     print(str)
