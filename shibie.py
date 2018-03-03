@@ -26,4 +26,4 @@ if __name__ == "__main__":
     str = aipSpeech.asr(get_file_content('./shibie.wav'), 'wav',16000,{
         'lan': 'zh',
     })
-    print(str.encode('utf-8'))
+    print(str['result'].encode('utf-8'))
