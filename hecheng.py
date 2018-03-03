@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-#encoding: utf-8
-#description: get local ip address
+#!/usr/bin/env python# -*- coding: utf-8 -*
 
 import os
 
