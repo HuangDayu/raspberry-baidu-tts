@@ -29,7 +29,7 @@ if __name__ == "__main__":
     getip='大鱼叔叔，我的IP地址是：'+get_ip()
     result = aipSpeech.synthesis(getip, 'zh', 1, {
         'vol': 5,
-    })
+    })
     # 识别正确返回语音二进制 错误则返回dict 参照下面错误码
     if not isinstance(result, dict):
         with open('hecheng.mp3', 'wb') as f:
