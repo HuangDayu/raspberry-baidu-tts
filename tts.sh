@@ -1,4 +1,6 @@
-#/bin/bash
+#!/usr/bin
+##!/bin/bash
+##!/bin/sh
 
 python2 hecheng.py
 sudo mplayer hecheng.mp3
