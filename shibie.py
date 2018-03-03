@@ -41,5 +41,6 @@ if __name__ == "__main__":
     print(str2)
     str3=str2[0]
     print(str3)
+    str4 = str2[1]
+    print(str4)
 #.encode('utf-8')
-#
